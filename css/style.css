@@ -1,0 +1,174 @@
+.clearfix {
+    zoom: 1
+}
+
+html,
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+@font-face {
+    font-family: saira-bold;
+    src: url(Saira-Bold.ttf)
+}
+
+@font-face {
+    font-family: saira-regular;
+    src: url(Saira-Regular.ttf)
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+
+.Section_login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left {
+    /*    width: 20%;*/
+    left: 0;
+    background-color: white;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.right {
+    width: 100%;
+    max-width: 1050px;
+    -webkit-box-flex: 500px;
+    -ms-flex: 500px;
+    flex: 1050px;
+    background: #E5E5E5;
+}
+
+h1 {
+    font-family: saira-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 57px;
+    color: #404040;
+   padding: 20px
+}
+
+ul {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    color: #C7C7C7;
+    font-family: saira-regular;
+}
+
+li:hover,
+li:active {
+    background-color: #F3CABB;
+    border-radius: 4px;
+    color: black;
+}
+
+.section_logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo_class {
+}
+
+.right {
+    width: 80%;
+    right: 0;
+}
+
+.home {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.login-box {
+    text-align: center;
+    background: #FFFFFF;
+    border: 0.5px solid #EAEAEA;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 19.0044px;
+    margin: 20px;
+    height: 75vh;
+    position: relative;
+}
+
+.btn1 {
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background: #EB5A2C;
+    border-radius: 6.35px;
+    width: 150px;
+    border-color: 1px solid #EB5A2C;
+
+}
+
+i {
+    color: white;
+    padding: 10px
+}
+
+.P_UploadRequirements {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #676767;
+    padding: 30px 0px 0px 0px;
+}
+
+.p_json {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    color: #676767;
+    padding: 10px;
+}
+
+.btn2 {
+    background: #EB5A2C;
+    border-radius: 6.35px;
+    color: white;
+    padding: 8px;
+    width: 100px;
+     position: absolute;
+    bottom: 20%;
+    left: 45%;
+    font-family: saira-regular;
+
+}
