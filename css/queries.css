@@ -8,11 +8,27 @@
         margin: auto
     }
 
+    .left {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    li {
+        text-align: center;
+    }
 }
 
 
-@media only screen and (max-width:320px) {
-    .btn2 {
-    
+@media only screen and (max-width:480px) {
+    .btn3 {
+        color: blueviolet
     }
+
+
+}
+
+@media only screen and (max-width:320px) {
+    .btn2 {}
+
+}
 }
