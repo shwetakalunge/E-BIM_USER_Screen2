@@ -218,6 +218,8 @@ li:active {
     background-color: white;
     /*  border: solid 1px #c3c3c3;*/
     visibility: hidden;
+       font-style: normal;
+    font-weight: normal;
 }
 
 #panel {
